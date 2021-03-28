@@ -11,8 +11,7 @@ contrib/iot/*
 contrib/wscript
 doc/*
 examples/*
-rapidjson/
-scratch/*
+scratch/iot_test.cc
 src/*
 test.py
 testpy.supp
