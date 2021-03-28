@@ -302,7 +302,7 @@ namespace ns3 {
                     switch(document["message"].GetInt()) {
                         case INV: 
                         {
-                            NS_LOG_INFO("INV message");
+                            NS_LOG_INFO("INV");
 
                             if(m_committerType != CLIENT) {
                                 unsigned int j;
@@ -513,10 +513,44 @@ namespace ns3 {
                         case MSG_TRANS:
                         {
                             NS_LOG_INFO("MSG_TRANS");
+                            // Not Implemented
+                            break;
                         }
+                        case RESULT_TRANS:
+                        {
+                            NS_LOG_INFO("RESULT_TRANS");
+                            // Not Implemented
+                            break;
+                        }
+                        case GET_HEADERS:
+                        {
+                            NS_LOG_INFO("GET_HEADERS");
+                            // Not Implemented
+                            break;
+                        }
+                        case HEADERS:
+                        {
+                            NS_LOG_INFO("HEADERS");
+                            // Not Implemented
+                            break;
+                        }
+                        case GET_DATA:
+                        {
+                            NS_LOG_INFO("GET_DATA");
+                            // Not Implemented
+                            break;
+                        }
+                        case BLOCK:
+                        {
+                            NS_LOG_INFO("BLOCK");
+                            // Not Implemented
+                            break;
+                        }
+
                         default:
                         {
                             NS_LOG_INFO("Default");
+                            // Not Implemented
                             break;
                         }
 
