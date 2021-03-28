@@ -20,5 +20,4 @@ utils/*
 waf
 waf-tools/*
 waf.bat
-wscript
 wutils.py
